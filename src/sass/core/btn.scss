@@ -1,0 +1,31 @@
+
+/* stylelint-disable */
+
+.btn {
+    padding: 19px 15px;
+    display: inline-block;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: #c1e281;
+    text-align: center;
+    border: 0;
+    text-decoration: none;
+    opacity: .98;
+    border-radius: 5px;
+    box-shadow: 13px 13px 15px rgba(0, 0, 0, 0.12);
+    font-size: 15px;
+    color: #000;
+
+    &:hover {
+        opacity: 1;
+        text-decoration: none;
+        transform: scale(.98);
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}

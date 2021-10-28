@@ -1,0 +1,38 @@
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+
+    &_face {
+        padding-bottom: 160px;
+        background-color: #fff;
+        background-position: center top;
+        background-image: url("../media/section/face.jpg");
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 1280px) {
+    .section {
+        &_face {
+            background-image: url("../media/section/face-1280.jpg");
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .section {
+        &_face {
+            background-image: url("../media/section/face-480.jpg");
+        }
+    }
+}
