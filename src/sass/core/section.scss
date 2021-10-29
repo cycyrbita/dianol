@@ -12,6 +12,13 @@
         background-image: url("../media/section/face.jpg");
         background-repeat: no-repeat;
     }
+
+    &_screen2 {
+        background-color: #fff;
+        background-position: center;
+        background-image: url("../media/section/screen2.jpg");
+        background-repeat: no-repeat;
+    }
 }
 
 @media (max-width: 1280px) {
@@ -26,6 +33,10 @@
     .section {
         padding-top: 30px;
         padding-bottom: 30px;
+
+        &_screen2 {
+            background-image: none;
+        }
     }
 }
 
