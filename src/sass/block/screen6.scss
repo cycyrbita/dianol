@@ -28,6 +28,10 @@
     span {
         display: none;
     }
+
+    br {
+        display: none;
+    }
 }
 
 .screen6__body {
@@ -95,13 +99,30 @@
 
 @media (max-width: 480px) {
     .screen6__title {
-        padding-top: 340px;
+        padding-top: 320px;
         background-image: url("../media/screen6/human-480.png");
         background-repeat: no-repeat;
         background-position: center top;
 
         span {
             display: inline-block;
+        }
+
+        br {
+            display: block;
+        }
+    }
+    
+    .screen6__body {
+        padding-right: 15px;
+        padding-left: 15px;
+
+        p {
+            font-size: 20px;
+
+            &:last-child {
+                font-size: 17px;
+            }
         }
     }
 }
