@@ -34,6 +34,13 @@
         background-position: center;
         background-image: url("../media/section/screen5.jpg");
     }
+
+    &_screen6 {
+        padding-top: 90px;
+        padding-bottom: 90px;
+        position: relative;
+        background-image: url("../media/section/screen6.jpg");
+    }
 }
 
 @media (max-width: 1280px) {
@@ -49,6 +56,10 @@
 
         &_screen5 {
             padding-top: 60px;
+        }
+
+        &_screen6 {
+            background-size: cover;
         }
     }
 }
@@ -86,6 +97,10 @@
         &_screen4 {
             padding-top: 370px;
             background-image: url("../media/section/screen4-480.jpg");
+        }
+
+        &_screen6 {
+            background-image: url("../media/section/screen6-480.jpg");
         }
     }
 }

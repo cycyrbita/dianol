@@ -1,0 +1,107 @@
+
+.screen6__product {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 350px;
+    width: 715px;
+    background-size: contain;
+}
+
+.screen6__title {
+    max-width: 650px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+
+    mark {
+        display: block;
+        font-size: 43px;
+        font-weight: 800;
+        color: #c1e281;
+    }
+
+    span {
+        display: none;
+    }
+}
+
+.screen6__body {
+    max-width: 950px;
+    padding: 30px;
+    padding-right: 160px;
+    background-color: #fff;
+
+    p {
+        font-size: 22px;
+
+        &:last-child {
+            margin-top: 15px;
+            font-size: 16px;
+        }
+    }
+}
+
+.screen6__footer {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.screen6__name {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+
+    span {
+        display: block;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+.screen6__id {
+    margin-left: 30px;
+}
+
+@media (max-width: 1280px) {
+    .screen6__product {
+        width: 530px;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .screen6__title {
+        line-height: 1.2;
+        
+        mark {
+            font-size: 24px;
+        }
+    }
+
+    .screen6__body {
+        padding: 30px;
+    }
+
+    .screen6__product {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .screen6__title {
+        padding-top: 340px;
+        background-image: url("../media/screen6/human-480.png");
+        background-repeat: no-repeat;
+        background-position: center top;
+
+        span {
+            display: inline-block;
+        }
+    }
+}
