@@ -7,33 +7,32 @@
 
     &_face {
         padding-bottom: 160px;
-        background-color: #fff;
         background-position: center top;
         background-image: url("../media/section/face.jpg");
-        background-repeat: no-repeat;
     }
 
     &_screen2 {
-        background-color: #fff;
         background-position: center;
         background-image: url("../media/section/screen2.jpg");
         background-repeat: no-repeat;
     }
 
     &_screen3 {
-        background-color: #fff;
         background-position: center top;
         background-image: url("../media/section/screen3.jpg");
-        background-repeat: no-repeat;
     }
 
     &_screen4 {
         min-height: 866px;
         padding-top: 160px;
-        background-color: #fff;
         background-position: center top;
         background-image: url("../media/section/screen4.jpg");
-        background-repeat: no-repeat;
+    }
+
+    &_screen5 {
+        padding-top: 120px;
+        background-position: center;
+        background-image: url("../media/section/screen5.jpg");
     }
 }
 
@@ -46,6 +45,10 @@
         &_screen4 {
             padding-top: 450px;
             background-image: url("../media/section/screen4-1280.jpg");
+        }
+
+        &_screen5 {
+            padding-top: 60px;
         }
     }
 }
@@ -65,6 +68,11 @@
 
         &_screen4 {
             padding-top: 450px;
+        }
+
+        &_screen5 {
+            background-position: center 150px;
+            background-image: url("../media/section/screen5-768.jpg");
         }
     }
 }
