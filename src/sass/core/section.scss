@@ -41,6 +41,12 @@
         position: relative;
         background-image: url("../media/section/screen6.jpg");
     }
+
+    &_screen7 {
+        position: relative;
+        background-image: url("../media/section/screen7.jpg");
+        background-position: top center;
+    }
 }
 
 @media (max-width: 1280px) {
@@ -84,6 +90,11 @@
         &_screen5 {
             background-position: center 150px;
             background-image: url("../media/section/screen5-768.jpg");
+        }
+
+        &_screen7 {
+            background-image: url("../media/section/screen7-768.jpg");
+            background-color: #9eb677;
         }
     }
 }
