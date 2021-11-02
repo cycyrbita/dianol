@@ -47,6 +47,10 @@
         background-image: url("../media/section/screen7.jpg");
         background-position: top center;
     }
+
+    &_commits {
+        padding-top: 120px;
+    }
 }
 
 @media (max-width: 1280px) {

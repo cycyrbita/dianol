@@ -1,9 +1,4 @@
 .alarm {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 100%;
-    transform: translateY(-50%);
     font-family: 'Arial', sans-serif;
     width: 100%;
     max-width: 1920px;
@@ -31,6 +26,7 @@
     content: '';
     display: block;
     background: url('../media/alarm/alarm-before.png') no-repeat center;
+    background-size: contain;
     width: 55px;
     height: 49px;
     position: absolute;
@@ -38,8 +34,6 @@
     bottom: 0;
     left: -28px;
     margin: auto;
-    background-size: contain;
-    background-position: center;
 }
 
 .alarm-left {
@@ -50,14 +44,13 @@
 
 .alarm-title {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 800;
     color: #000;
     margin: 0;
     text-transform: uppercase;
 
     span {
         color: #ea1111;
-        display: block;
     }
 }
 
@@ -74,14 +67,8 @@
     font-size: 18px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
     .alarm {
         padding: 30px 10px 30px 40px;
-        position: static;
-        transform: translateY(0);
-    }
-
-    .alarm-wrap {
-        background: url('../media/alarm/alarm-bg.jpg') no-repeat top 100%/contain;
     }
 }
