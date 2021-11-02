@@ -60,4 +60,12 @@ $(document).ready(function () {
         offset: 200
     });
 
+    $('.screen5__ingredients').click(function() {
+        $('.screen5__info').not($(this).next('.screen5__info').fadeIn()).fadeOut();
+    })
+
+    $('.screen5__close').click(function() {
+        $(this).parents('.screen5__info').fadeOut()
+    })
+
 });
