@@ -99,10 +99,11 @@
 
 @media (max-width: 480px) {
     .screen6__title {
-        padding-top: 320px;
+        padding-top: 240px;
         background-image: url("../media/screen6/human-480.png");
         background-repeat: no-repeat;
         background-position: center top;
+        font-size: 25px;
 
         span {
             display: inline-block;
@@ -111,6 +112,10 @@
         br {
             display: block;
         }
+
+        mark {
+            font-size: 30px;
+        }
     }
     
     .screen6__body {
@@ -118,10 +123,11 @@
         padding-left: 15px;
 
         p {
-            font-size: 20px;
+            font-size: 17px;
+            color: #102b4f;
 
             &:last-child {
-                font-size: 17px;
+                font-size: 16px;
             }
         }
     }

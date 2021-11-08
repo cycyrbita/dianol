@@ -38,6 +38,12 @@
     }
 
     &:nth-child(3) {
+        .screen8__media {
+            &::before {
+                content: '03';
+            }
+        }
+
         &::after {
             display: none;
         }
@@ -105,5 +111,31 @@
 @media (max-width: 768px) {
     .screen8__title {
         font-size: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .screen8__title {
+        font-size: 24px;
+    }
+
+    .screen8__item {
+        padding-bottom: 60px;
+
+        &::after {
+            top: auto;
+            bottom: 0;
+            display: block;
+            left: 50%;
+            transform: translateX(-50%) rotate(90deg);
+        }
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+
+    .screen8__media {
+        margin-bottom: 30px;
     }
 }

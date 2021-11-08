@@ -167,10 +167,14 @@
 
 @media (max-width: 480px) {
     .screen3__title {
-        font-size: 15px;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding-right: 9px;
+        padding-left: 10px;
+        font-size: 16px;
         line-height: 1.2;
-        background-size: 280px;
-        padding-bottom: 185px;
+        background-size: auto;
+        padding-bottom: 370px;
 
         mark {
             font-size: 24px;
@@ -181,5 +185,14 @@
         margin-top: 30px;
         padding: 110px 25px 25px 25px;
         background-position: center -10px;
+        text-align: center;
+
+        mark {
+            display: block;
+        }
+    }
+
+    .screen3__body {
+        margin-top: -115px;
     }
 }

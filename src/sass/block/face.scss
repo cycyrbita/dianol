@@ -189,11 +189,30 @@
     .face__product {
         width: 225px;
         bottom: calc(100% + 70px);
+
+        &::after {
+            bottom: 0;
+        }
     }
 
     .face__box {
         &:last-child {
             margin-top: 370px;
+        }
+    }
+
+    .face__item {
+        position: relative;
+        padding-top: 180px;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 200px;
+            max-width: none;
         }
     }
 }

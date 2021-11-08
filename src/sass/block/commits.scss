@@ -82,7 +82,7 @@
 }
 
 .commits__box .owl-dot.active {
-    background-color: #000 !important;
+    background-color: #30588d !important;
     border: 0 !important;
 }
 
@@ -165,12 +165,12 @@
     }
 
     .commits__box .owl-dot {
-        width: 40px !important;
-        height: 5px !important;
+        width: 18px !important;
+        height: 18px !important;
         margin-right: 10px !important;
         margin-left: 10px !important;
         border: none !important;
-        border-radius: 7px !important;
+        border-radius: 50% !important;
         background-color: #f2f2f2 !important;
     }
 

@@ -60,7 +60,7 @@ $(document).ready(function () {
         offset: 200
     });
 
-    $('.screen5__ingredients').click(function() {
+    $('.screen5__ingredients').hover(function() {
         $('.screen5__info').not($(this).next('.screen5__info').fadeIn()).fadeOut();
     })
 
