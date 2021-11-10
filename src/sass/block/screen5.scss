@@ -172,6 +172,10 @@
     }
 }
 
+.screen5__footer_mobile {
+    display: none;
+}
+
 @media (max-width: 1280px) {
     .screen5__item {
         justify-content: flex-start;
@@ -285,5 +289,14 @@
         margin-top: 30px;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .screen5__footer {
+        display: none;
+
+        &_mobile {
+            display: flex;
+            margin-bottom: 30px;
+        }
     }
 }
